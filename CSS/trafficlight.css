@@ -1,0 +1,35 @@
+div{
+    width: 250px;
+    height: 750px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally center the traffic lights */
+    align-items: center;
+}
+#firstcircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin-bottom: 50px ;
+    justify-content: center;
+    align-items: center;
+}
+#secondcircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#thirdcircle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
